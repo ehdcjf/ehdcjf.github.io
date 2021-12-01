@@ -51,15 +51,24 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  <img src="assets/img/portfolio/portfolio-6-1.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                  <img src="assets/img/portfolio/portfolio-6-3.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                  <img src="assets/img/portfolio/portfolio-6-4.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-6-5.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-6-6.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-6-7.png" alt="">
                 </div>
 
               </div>
@@ -69,18 +78,33 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>프로젝트 개요</h3>
               <ul>
-                <li><strong>Category</strong>klaytn 기반 NFT 의류 쇼핑몰</li>
-                <li><strong>Project date</strong>:2021.10.14 ~2021.11.29</li>
-                <li><strong>Project URL</strong>: <a href="http://3.36.230.95/" target="_blank">http://3.36.230.95/</a></li>
-                <li><strong>Project Github</strong>: <a href="https://github.com/dnjzm108/NFT_MARCKET" target="_blank">https://github.com/dnjzm108/NFT_MARCKET</a></li>
+                <li><strong>팀프로젝트(3명)</strong>: Klaytn 기반 NFT 의류 쇼핑몰</li>
+                <li><strong>프로젝트 기간</strong>: 2021.10.14 ~2021.11.29</li>
+                <li><strong>프로젝트 URL</strong>: <a href="http://3.36.230.95/" target="_blank">http://3.36.230.95/</a></li>
+                <li><strong>프로젝트 깃허브</strong>: <a href="https://github.com/dnjzm108/NFT_MARCKET" target="_blank">https://github.com/dnjzm108/NFT_MARCKET</a></li>
+                <li><strong>맡은 역할</strong>: 팀장, 메인페이지, 마이페이지, klatyn Token 발행, Klaytn NFT 발행, websocket, DB설계</li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2>프로젝트 설명</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                klay를 토큰으로 교환하여, 토큰으로 상품을 구매하고, 상품을 구매하면 NFT가 발행되고, 실물 상품을 배송하는 의류 쇼핑몰 입니다. <br>
+                프론트는 NEXT.js를 이용해 SSR이 가능하게 구현했습니다. redux-saga를 이용하여 상태관리했습니다. <br>
+                백앤드는 Node.js를 이용해서 만들었고, 경매,구매는 websocket을 이용하여 실시간 이벤트를 처리할 수 있도록 했습니다. <br>
+                블록체인은 Klaytn에서 제공하는 SDK caver.js를 이용하여 구현 하였습니다. <br>
+                프론트에 사용되는 이미지,NFT에 사용되는 tokenURI는 AWS S3에 보관했습니다. <br>
+                AWS EC2로 배포했습니다. 
+              </p>
+
+              <h2>사용법</h2>
+              <p>
+                kaikas 지갑을 이용해서 로그인합니다. 마이페이지로 가서 판매자 등록 신청을 합니다. <br>
+                <a href="http://3.36.230.95/admin/root" target="_blank">관리자페이지</a> 로 가서 자신의 아이디를 판매자 인증 합니다.  <br>
+                 다시 마이페이지로 돌아와보면 인증이 완료된것을 확인할 수 있습니다. 그리고 상품을 등록합니다.  <br>
+                 상품을 구매하려면 토큰이 필요합니다. 토큰교환 페이지에서 토큰을 교환하고, 상품을 구매 또는 입찰합니다.  <br>
+                 마이페이지에서 잘 구매되었는지 확인합니다. 
               </p>
             </div>
           </div>

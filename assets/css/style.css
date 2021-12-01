@@ -5,6 +5,23 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
+
+/*--------------------------------------------------------------
+# Custom
+--------------------------------------------------------------*/
+.flllex{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -242,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg2.jpg") ;
+  background: url("../img/hero-bg.jpg") ;
   background-size: contain;
   position: relative;
 }
